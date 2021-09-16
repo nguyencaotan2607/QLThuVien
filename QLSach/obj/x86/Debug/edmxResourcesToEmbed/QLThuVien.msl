@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLSachModelStoreContainer" CdmEntityContainer="QLThuVienEntities">
+    <EntitySetMapping Name="CTPMs">
+      <EntityTypeMapping TypeName="QLSachModel.CTPM">
+        <MappingFragment StoreEntitySet="CTPM">
+          <ScalarProperty Name="Maphieu" ColumnName="Maphieu" />
+          <ScalarProperty Name="Manv" ColumnName="Manv" />
+          <ScalarProperty Name="Madg" ColumnName="Madg" />
+          <ScalarProperty Name="Masach" ColumnName="Masach" />
+          <ScalarProperty Name="Ngaylapphieu" ColumnName="Ngaylapphieu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Docgias">
+      <EntityTypeMapping TypeName="QLSachModel.Docgia">
+        <MappingFragment StoreEntitySet="Docgia">
+          <ScalarProperty Name="Madg" ColumnName="Madg" />
+          <ScalarProperty Name="Tendg" ColumnName="Tendg" />
+          <ScalarProperty Name="Namsinh" ColumnName="Namsinh" />
+          <ScalarProperty Name="Gioitinh" ColumnName="Gioitinh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Lop" ColumnName="Lop" />
+          <ScalarProperty Name="Ngaytaothe" ColumnName="Ngaytaothe" />
+          <ScalarProperty Name="Manv" ColumnName="Manv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nhanviens">
+      <EntityTypeMapping TypeName="QLSachModel.Nhanvien">
+        <MappingFragment StoreEntitySet="Nhanvien">
+          <ScalarProperty Name="Manv" ColumnName="Manv" />
+          <ScalarProperty Name="Tennv" ColumnName="Tennv" />
+          <ScalarProperty Name="Namsinh" ColumnName="Namsinh" />
+          <ScalarProperty Name="Gioitinh" ColumnName="Gioitinh" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="Ngaylamviec" ColumnName="Ngaylamviec" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Phieumuons">
+      <EntityTypeMapping TypeName="QLSachModel.Phieumuon">
+        <MappingFragment StoreEntitySet="Phieumuon">
+          <ScalarProperty Name="Maphieu" ColumnName="Maphieu" />
+          <ScalarProperty Name="Manv" ColumnName="Manv" />
+          <ScalarProperty Name="Ngaylapphieu" ColumnName="Ngaylapphieu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Saches">
+      <EntityTypeMapping TypeName="QLSachModel.Sach">
+        <MappingFragment StoreEntitySet="Sach">
+          <ScalarProperty Name="Masach" ColumnName="Masach" />
+          <ScalarProperty Name="Tensach" ColumnName="Tensach" />
+          <ScalarProperty Name="Loaisach" ColumnName="Loaisach" />
+          <ScalarProperty Name="Linhvuc" ColumnName="Linhvuc" />
+          <ScalarProperty Name="Tacgia" ColumnName="Tacgia" />
+          <ScalarProperty Name="NXB" ColumnName="NXB" />
+          <ScalarProperty Name="Ngayxuatban" ColumnName="Ngayxuatban" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

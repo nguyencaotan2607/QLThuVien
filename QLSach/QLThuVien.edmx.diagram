@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1536c9f8a3c74fc9a28014d68ff5e6a2" Name="Diagram1">
+        <EntityTypeShape EntityType="QLSachModel.CTPM" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSachModel.Docgia" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSachModel.Nhanvien" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSachModel.Phieumuon" Width="1.5" PointX="3" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLSachModel.Sach" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="QLSachModel.FK__CTPM__Madg__1273C1CD" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSachModel.FK__CTPM__Manv__117F9D94" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSachModel.FK__CTPM__Maphieu__108B795B" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSachModel.FK__CTPM__Masach__1367E606" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSachModel.FK__Docgia__Manv__08EA5793" ManuallyRouted="false" />
+        <AssociationConnector Association="QLSachModel.FK__Phieumuon__Manv__0DAF0CB0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
