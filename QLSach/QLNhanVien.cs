@@ -23,16 +23,11 @@ namespace QLSach
             HienthiDSNhanVien();
             busNhanvien.LayDSManv(cbTennv);
             busNhanvien.LayDSGioitinh(cbGioitinh);
-            CapNhat();
         }
         public void HienthiDSNhanVien()
         {
             dgNhanVien.DataSource = null;
-            busNhanvien.LayDSNhanVien(dgNhanVien);
-        }
-        void CapNhat()
-        {
-            busNhanvien.LayDSNhanVien(dgNhanVien);
+            busNhanvien.HienThiDSNhanVien(dgNhanVien);
             dgNhanVien.Columns[0].Width = (int)(0.08 * dgNhanVien.Width);
             dgNhanVien.Columns[1].Width = (int)(0.2 * dgNhanVien.Width);
             dgNhanVien.Columns[2].Width = (int)(0.14 * dgNhanVien.Width);
@@ -91,7 +86,7 @@ namespace QLSach
             if (busNhanvien.TaoNV(n))
             {
                 MessageBox.Show("Thêm Nhân Viên Thành Công");
-                busNhanvien.LayDSNhanVien(dgNhanVien);
+                busNhanvien.HienThiDSNhanVien(dgNhanVien);
             }
             else
             {
@@ -113,7 +108,7 @@ namespace QLSach
             if (busNhanvien.SuaNV(n))
             {
                 MessageBox.Show("Sửa đơn hàng thành công");
-                busNhanvien.LayDSNhanVien(dgNhanVien);
+                busNhanvien.HienThiDSNhanVien(dgNhanVien);
             }
             else
             {
@@ -129,7 +124,7 @@ namespace QLSach
             if (busNhanvien.XoaNV(n))
             {
                 MessageBox.Show("Xoá sản phẩm thành công");
-                busNhanvien.LayDSNhanVien(dgNhanVien);
+                busNhanvien.HienThiDSNhanVien(dgNhanVien);
             }
             else
             {

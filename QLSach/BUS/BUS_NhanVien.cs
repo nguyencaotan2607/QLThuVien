@@ -16,6 +16,10 @@ namespace QLSach.BUS
             dNhanVien = new DAO_NhanVien();
 
         }
+        public void HienThiDSNhanVien(DataGridView dg)
+        {
+            dg.DataSource = dNhanVien.LayDSNhanVien();
+        }
         public void LayDSNhanVien(DataGridView dg)
         {
             dg.DataSource = dNhanVien.LayDSNhanVien();
