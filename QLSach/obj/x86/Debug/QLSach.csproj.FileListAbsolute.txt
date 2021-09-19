@@ -26,3 +26,10 @@ C:\Users\ACER-F5-573G\Desktop\GitHub\QLThuVien\QLSach\obj\x86\Debug\QLSach.cspro
 C:\Users\ACER-F5-573G\Desktop\GitHub\QLThuVien\QLSach\obj\x86\Debug\QLSach.csproj.CoreCompileInputs.cache
 C:\Users\ACER-F5-573G\Desktop\GitHub\QLThuVien\QLSach\obj\x86\Debug\QLSach.exe
 C:\Users\ACER-F5-573G\Desktop\GitHub\QLThuVien\QLSach\obj\x86\Debug\QLSach.pdb
+C:\Users\ACER-F5-573G\Desktop\GitHub\QLThuVien\QLSach\bin\Debug\QLSach.exe.config
+C:\Users\ACER-F5-573G\Desktop\GitHub\QLThuVien\QLSach\bin\Debug\QLSach.exe
+C:\Users\ACER-F5-573G\Desktop\GitHub\QLThuVien\QLSach\bin\Debug\QLSach.pdb
+C:\Users\ACER-F5-573G\Desktop\GitHub\QLThuVien\QLSach\bin\Debug\EntityFramework.dll
+C:\Users\ACER-F5-573G\Desktop\GitHub\QLThuVien\QLSach\bin\Debug\EntityFramework.xml
+C:\Users\ACER-F5-573G\Desktop\GitHub\QLThuVien\QLSach\obj\x86\Debug\QLSach.QLNhanVien.resources
+C:\Users\ACER-F5-573G\Desktop\GitHub\QLThuVien\QLSach\obj\x86\Debug\QLSach.csproj.CopyComplete
