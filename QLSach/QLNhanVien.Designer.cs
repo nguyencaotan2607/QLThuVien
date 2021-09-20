@@ -31,7 +31,7 @@ namespace QLSach
         private void InitializeComponent()
         {
             this.cbGioitinh = new System.Windows.Forms.ComboBox();
-            this.cbTennv = new System.Windows.Forms.ComboBox();
+            this.cbDiachi = new System.Windows.Forms.ComboBox();
             this.lbDiachi = new System.Windows.Forms.Label();
             this.lbNgaylamviec = new System.Windows.Forms.Label();
             this.lbNamsinh = new System.Windows.Forms.Label();
@@ -40,8 +40,8 @@ namespace QLSach
             this.lbTennv = new System.Windows.Forms.Label();
             this.lbManv = new System.Windows.Forms.Label();
             this.txtSDT = new System.Windows.Forms.TextBox();
+            this.txtTennv = new System.Windows.Forms.TextBox();
             this.txtManv = new System.Windows.Forms.TextBox();
-            this.txtDiachi = new System.Windows.Forms.TextBox();
             this.btThoat = new System.Windows.Forms.Button();
             this.btXoa = new System.Windows.Forms.Button();
             this.btSua = new System.Windows.Forms.Button();
@@ -67,15 +67,15 @@ namespace QLSach
             this.cbGioitinh.Size = new System.Drawing.Size(314, 27);
             this.cbGioitinh.TabIndex = 35;
             // 
-            // cbTennv
+            // cbDiachi
             // 
-            this.cbTennv.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.cbDiachi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.cbTennv.FormattingEnabled = true;
-            this.cbTennv.Location = new System.Drawing.Point(160, 87);
-            this.cbTennv.Name = "cbTennv";
-            this.cbTennv.Size = new System.Drawing.Size(242, 27);
-            this.cbTennv.TabIndex = 34;
+            this.cbDiachi.FormattingEnabled = true;
+            this.cbDiachi.Location = new System.Drawing.Point(160, 153);
+            this.cbDiachi.Name = "cbDiachi";
+            this.cbDiachi.Size = new System.Drawing.Size(242, 27);
+            this.cbDiachi.TabIndex = 34;
             // 
             // lbDiachi
             // 
@@ -163,24 +163,24 @@ namespace QLSach
             this.txtSDT.Size = new System.Drawing.Size(242, 27);
             this.txtSDT.TabIndex = 22;
             // 
+            // txtTennv
+            // 
+            this.txtTennv.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtTennv.Location = new System.Drawing.Point(160, 81);
+            this.txtTennv.Name = "txtTennv";
+            this.txtTennv.Size = new System.Drawing.Size(242, 27);
+            this.txtTennv.TabIndex = 21;
+            // 
             // txtManv
             // 
             this.txtManv.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtManv.Location = new System.Drawing.Point(160, 56);
+            this.txtManv.Location = new System.Drawing.Point(160, 50);
+            this.txtManv.MaxLength = 4;
             this.txtManv.Name = "txtManv";
             this.txtManv.Size = new System.Drawing.Size(242, 27);
-            this.txtManv.TabIndex = 21;
-            // 
-            // txtDiachi
-            // 
-            this.txtDiachi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDiachi.Location = new System.Drawing.Point(160, 150);
-            this.txtDiachi.MaxLength = 4;
-            this.txtDiachi.Name = "txtDiachi";
-            this.txtDiachi.Size = new System.Drawing.Size(242, 27);
-            this.txtDiachi.TabIndex = 20;
+            this.txtManv.TabIndex = 20;
             // 
             // btThoat
             // 
@@ -228,6 +228,7 @@ namespace QLSach
             this.btThem.TabIndex = 32;
             this.btThem.Text = "&Thêm";
             this.btThem.UseVisualStyleBackColor = true;
+            this.btThem.Click += new System.EventHandler(this.btThem_Click_1);
             // 
             // lbNhanvien
             // 
@@ -270,7 +271,7 @@ namespace QLSach
             // MaNV
             // 
             this.MaNV.AutoSize = true;
-            this.MaNV.Location = new System.Drawing.Point(22, 59);
+            this.MaNV.Location = new System.Drawing.Point(22, 56);
             this.MaNV.Name = "MaNV";
             this.MaNV.Size = new System.Drawing.Size(118, 21);
             this.MaNV.TabIndex = 41;
@@ -297,7 +298,7 @@ namespace QLSach
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(21, 90);
+            this.label4.Location = new System.Drawing.Point(21, 87);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(124, 21);
             this.label4.TabIndex = 41;
@@ -319,15 +320,15 @@ namespace QLSach
             this.Controls.Add(this.cbGioitinh);
             this.Controls.Add(this.btThem);
             this.Controls.Add(this.btSua);
-            this.Controls.Add(this.cbTennv);
+            this.Controls.Add(this.cbDiachi);
             this.Controls.Add(this.btXoa);
             this.Controls.Add(this.btThoat);
             this.Controls.Add(this.lbNgaylamviec);
             this.Controls.Add(this.lbNamsinh);
             this.Controls.Add(this.lbSDT);
             this.Controls.Add(this.lbTennv);
-            this.Controls.Add(this.txtDiachi);
             this.Controls.Add(this.txtManv);
+            this.Controls.Add(this.txtTennv);
             this.Controls.Add(this.txtSDT);
             this.Controls.Add(this.lbManv);
             this.Controls.Add(this.lbGioitinh);
@@ -345,7 +346,7 @@ namespace QLSach
 
         #endregion
         private System.Windows.Forms.ComboBox cbGioitinh;
-        private System.Windows.Forms.ComboBox cbTennv;
+        private System.Windows.Forms.ComboBox cbDiachi;
         private System.Windows.Forms.Label lbDiachi;
         private System.Windows.Forms.Label lbNgaylamviec;
         private System.Windows.Forms.Label lbNamsinh;
@@ -354,8 +355,8 @@ namespace QLSach
         private System.Windows.Forms.Label lbTennv;
         private System.Windows.Forms.Label lbManv;
         private System.Windows.Forms.TextBox txtSDT;
+        private System.Windows.Forms.TextBox txtTennv;
         private System.Windows.Forms.TextBox txtManv;
-        private System.Windows.Forms.TextBox txtDiachi;
         private System.Windows.Forms.Button btThoat;
         private System.Windows.Forms.Button btXoa;
         private System.Windows.Forms.Button btSua;

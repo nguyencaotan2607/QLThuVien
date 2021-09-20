@@ -21,7 +21,7 @@ namespace QLSach
         private void QLNhanVien_Load(object sender, EventArgs e)
         {
             HienthiDSNhanVien();
-            busNhanvien.LayDSManv(cbTennv);
+            busNhanvien.LayDSDiachi(cbDiachi);
             busNhanvien.LayDSGioitinh(cbGioitinh);
         }
         public void HienthiDSNhanVien()
@@ -43,9 +43,9 @@ namespace QLSach
             if (e.RowIndex >= 0 && e.RowIndex < dgNhanVien.Rows.Count)
             {
                 txtManv.Text = dgNhanVien.Rows[e.RowIndex].Cells["Manv"].Value.ToString();
-                cbTennv.Text = dgNhanVien.Rows[e.RowIndex].Cells["Tennhanvien"].Value.ToString();
+                txtTennv.Text = dgNhanVien.Rows[e.RowIndex].Cells["Điachi"].Value.ToString();
                 txtSDT.Text = dgNhanVien.Rows[e.RowIndex].Cells["Sodienthoai"].Value.ToString();
-                txtDiachi.Text = dgNhanVien.Rows[e.RowIndex].Cells["Điachi"].Value.ToString();
+                cbDiachi.Text = dgNhanVien.Rows[e.RowIndex].Cells["Tennhanvien"].Value.ToString();
                 dtNamSinh.Text = dgNhanVien.Rows[e.RowIndex].Cells["Namsinh"].Value.ToString();
                 cbGioitinh.Text = dgNhanVien.Rows[e.RowIndex].Cells["Gioitinh"].Value.ToString();
                 dtNgayLamViec.Text = dgNhanVien.Rows[e.RowIndex].Cells["NgayLamViec"].Value.ToString();
@@ -60,28 +60,18 @@ namespace QLSach
                 {
                     this.Close();
                     Application.Exit();
-                }
-            
+                } 
         }
-        private void btThem_Click(object sender, EventArgs e)
+        private void btThem_Click_1(object sender, EventArgs e)
         {
             Nhanvien n = new Nhanvien();
-            n.Manv = cbTennv.SelectedValue.ToString();
-            n.Tennv = txtManv.Text;
+            n.Manv = txtManv.Text;
+            n.Tennv = txtTennv.Text;
             n.SDT = txtSDT.Text;
-            n.Diachi = txtSDT.Text;
+            n.Diachi = cbDiachi.SelectedValue.ToString();
             n.Namsinh = dtNamSinh.Value;
             n.Gioitinh = cbGioitinh.SelectedValue.ToString();
             n.Ngaylamviec = dtNgayLamViec.Value;
-            if (this.txtManv.TextLength == 0)
-                MessageBox.Show("Tên nhân viên không được bỏ trống");
-            else
-                if (this.txtSDT.TextLength > 12)
-                MessageBox.Show("số điện thoại không được vượt quá 12 ký tự");
-            else
-                if (this.txtDiachi.TextLength == 0)
-                MessageBox.Show("địa chỉ không được bỏ trống");
-
             //Gọi BUS
             if (busNhanvien.TaoNV(n))
             {
@@ -93,26 +83,25 @@ namespace QLSach
                 MessageBox.Show("Thêm Nhân Viên không Thành Công");
             }
         }
-
         private void btSua_Click(object sender, EventArgs e)
         {
             Nhanvien n = new Nhanvien();
-            n.Manv= (txtManv.Text);
-            n.Ngaylamviec = dtNgayLamViec.Value;
-            n.Tennv = (cbTennv.SelectedValue.ToString());
-            n.Gioitinh = cbGioitinh.SelectedValue.ToString();
-            n.Namsinh = dtNamSinh.Value;
-            n.Diachi = txtDiachi.Text;
+            n.Manv= txtManv.Text;
+            n.Tennv = txtTennv.Text;
             n.SDT = txtSDT.Text;
+            n.Diachi = cbDiachi.SelectedValue.ToString();
+            n.Namsinh = dtNamSinh.Value;
+            n.Gioitinh = cbGioitinh.SelectedValue.ToString();
+            n.Ngaylamviec = dtNgayLamViec.Value;
 
             if (busNhanvien.SuaNV(n))
             {
-                MessageBox.Show("Sửa đơn hàng thành công");
+                MessageBox.Show("Sửa Nhân Viên thành công");
                 busNhanvien.HienThiDSNhanVien(dgNhanVien);
             }
             else
             {
-                MessageBox.Show("Sửa đơn hàng thất bại");
+                MessageBox.Show("Sửa Nhân Viên thất bại");
             }
         }
 
@@ -123,12 +112,12 @@ namespace QLSach
 
             if (busNhanvien.XoaNV(n))
             {
-                MessageBox.Show("Xoá sản phẩm thành công");
+                MessageBox.Show("Xoá Nhân Viên thành công");
                 busNhanvien.HienThiDSNhanVien(dgNhanVien);
             }
             else
             {
-                MessageBox.Show("Xoá sản phẩm thất bại");
+                MessageBox.Show("Xoá Nhân Viên thất bại");
             }
         }
     }

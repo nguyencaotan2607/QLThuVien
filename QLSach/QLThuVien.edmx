@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="QLSachModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+      <Schema Namespace="QLThuVienModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
         <EntityType Name="CTPM">
           <Key>
             <PropertyRef Name="Maphieu" />
@@ -135,7 +135,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="QLSachModelStoreContainer">
+        <EntityContainer Name="QLThuVienModelStoreContainer">
           <EntitySet Name="CTPM" EntityType="Self.CTPM" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Docgia" EntityType="Self.Docgia" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Nhanvien" EntityType="Self.Nhanvien" Schema="dbo" store:Type="Tables" />
@@ -170,7 +170,7 @@
     </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="QLSachModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+      <Schema Namespace="QLThuVienModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
         <EntityType Name="CTPM">
           <Key>
             <PropertyRef Name="Maphieu" />
@@ -313,7 +313,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="QLThuVienEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="QLThuVienEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="CTPMs" EntityType="Self.CTPM" />
           <EntitySet Name="Docgias" EntityType="Self.Docgia" />
           <EntitySet Name="Nhanviens" EntityType="Self.Nhanvien" />
@@ -349,9 +349,9 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="QLSachModelStoreContainer" CdmEntityContainer="QLThuVienEntities">
+        <EntityContainerMapping StorageEntityContainer="QLThuVienModelStoreContainer" CdmEntityContainer="QLThuVienEntities1">
           <EntitySetMapping Name="CTPMs">
-            <EntityTypeMapping TypeName="QLSachModel.CTPM">
+            <EntityTypeMapping TypeName="QLThuVienModel.CTPM">
               <MappingFragment StoreEntitySet="CTPM">
                 <ScalarProperty Name="Maphieu" ColumnName="Maphieu" />
                 <ScalarProperty Name="Manv" ColumnName="Manv" />
@@ -362,7 +362,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Docgias">
-            <EntityTypeMapping TypeName="QLSachModel.Docgia">
+            <EntityTypeMapping TypeName="QLThuVienModel.Docgia">
               <MappingFragment StoreEntitySet="Docgia">
                 <ScalarProperty Name="Madg" ColumnName="Madg" />
                 <ScalarProperty Name="Tendg" ColumnName="Tendg" />
@@ -376,7 +376,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Nhanviens">
-            <EntityTypeMapping TypeName="QLSachModel.Nhanvien">
+            <EntityTypeMapping TypeName="QLThuVienModel.Nhanvien">
               <MappingFragment StoreEntitySet="Nhanvien">
                 <ScalarProperty Name="Manv" ColumnName="Manv" />
                 <ScalarProperty Name="Tennv" ColumnName="Tennv" />
@@ -389,7 +389,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Phieumuons">
-            <EntityTypeMapping TypeName="QLSachModel.Phieumuon">
+            <EntityTypeMapping TypeName="QLThuVienModel.Phieumuon">
               <MappingFragment StoreEntitySet="Phieumuon">
                 <ScalarProperty Name="Maphieu" ColumnName="Maphieu" />
                 <ScalarProperty Name="Manv" ColumnName="Manv" />
@@ -398,7 +398,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Saches">
-            <EntityTypeMapping TypeName="QLSachModel.Sach">
+            <EntityTypeMapping TypeName="QLThuVienModel.Sach">
               <MappingFragment StoreEntitySet="Sach">
                 <ScalarProperty Name="Masach" ColumnName="Masach" />
                 <ScalarProperty Name="Tensach" ColumnName="Tensach" />

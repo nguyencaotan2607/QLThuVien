@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="QLSachModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+<Schema Namespace="QLThuVienModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
   <EntityType Name="CTPM">
     <Key>
       <PropertyRef Name="Maphieu" />
@@ -142,7 +142,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="QLThuVienEntities" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="QLThuVienEntities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="CTPMs" EntityType="Self.CTPM" />
     <EntitySet Name="Docgias" EntityType="Self.Docgia" />
     <EntitySet Name="Nhanviens" EntityType="Self.Nhanvien" />

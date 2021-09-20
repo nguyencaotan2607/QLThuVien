@@ -10,11 +10,11 @@ namespace QLSach.DAO
 {
     class DAO_QLSach
     {
-        QLThuVienEntities db;
+        QLThuVienEntities1 db;
         
         public DAO_QLSach()
         {
-            db = new QLThuVienEntities();
+            db = new QLThuVienEntities1();
             
         }
 

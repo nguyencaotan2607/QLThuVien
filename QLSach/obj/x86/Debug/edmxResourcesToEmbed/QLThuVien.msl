@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="QLSachModelStoreContainer" CdmEntityContainer="QLThuVienEntities">
+  <EntityContainerMapping StorageEntityContainer="QLThuVienModelStoreContainer" CdmEntityContainer="QLThuVienEntities1">
     <EntitySetMapping Name="CTPMs">
-      <EntityTypeMapping TypeName="QLSachModel.CTPM">
+      <EntityTypeMapping TypeName="QLThuVienModel.CTPM">
         <MappingFragment StoreEntitySet="CTPM">
           <ScalarProperty Name="Maphieu" ColumnName="Maphieu" />
           <ScalarProperty Name="Manv" ColumnName="Manv" />
@@ -13,7 +13,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Docgias">
-      <EntityTypeMapping TypeName="QLSachModel.Docgia">
+      <EntityTypeMapping TypeName="QLThuVienModel.Docgia">
         <MappingFragment StoreEntitySet="Docgia">
           <ScalarProperty Name="Madg" ColumnName="Madg" />
           <ScalarProperty Name="Tendg" ColumnName="Tendg" />
@@ -27,7 +27,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Nhanviens">
-      <EntityTypeMapping TypeName="QLSachModel.Nhanvien">
+      <EntityTypeMapping TypeName="QLThuVienModel.Nhanvien">
         <MappingFragment StoreEntitySet="Nhanvien">
           <ScalarProperty Name="Manv" ColumnName="Manv" />
           <ScalarProperty Name="Tennv" ColumnName="Tennv" />
@@ -40,7 +40,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Phieumuons">
-      <EntityTypeMapping TypeName="QLSachModel.Phieumuon">
+      <EntityTypeMapping TypeName="QLThuVienModel.Phieumuon">
         <MappingFragment StoreEntitySet="Phieumuon">
           <ScalarProperty Name="Maphieu" ColumnName="Maphieu" />
           <ScalarProperty Name="Manv" ColumnName="Manv" />
@@ -49,7 +49,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Saches">
-      <EntityTypeMapping TypeName="QLSachModel.Sach">
+      <EntityTypeMapping TypeName="QLThuVienModel.Sach">
         <MappingFragment StoreEntitySet="Sach">
           <ScalarProperty Name="Masach" ColumnName="Masach" />
           <ScalarProperty Name="Tensach" ColumnName="Tensach" />

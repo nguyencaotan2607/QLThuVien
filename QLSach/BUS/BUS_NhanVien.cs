@@ -25,11 +25,11 @@ namespace QLSach.BUS
             dg.DataSource = dNhanVien.LayDSNhanVien();
 
         }
-        public void LayDSManv(ComboBox cb)
+        public void LayDSDiachi(ComboBox cb)
         {
-            cb.DataSource = dNhanVien.LayDSManv();
-            cb.DisplayMember = "Manv";
-            cb.ValueMember = "Manv";
+            cb.DataSource = dNhanVien.LayDSDiachi();
+            cb.DisplayMember = "Diachi";
+            cb.ValueMember = "Diachi";
         }
         public void LayDSGioitinh(ComboBox cb)
         {

@@ -3,17 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Drawing;
+
 
 namespace QLSach.DAO
 {
     class DAO_NhanVien
     {
-        QLThuVienEntities db;
+        QLThuVienEntities1 db;
         public DAO_NhanVien()
         {
-            db = new QLThuVienEntities();
+            db = new QLThuVienEntities1();
         }
         public dynamic LayDSNhanVien()
         {
@@ -29,11 +28,11 @@ namespace QLSach.DAO
             }).ToList();
             return ds;
         }
-        public dynamic LayDSManv()
+        public dynamic LayDSDiachi()
         {
             var ds = db.Nhanviens.Select(s => new
             {
-                s.Manv
+                s.Diachi
 
             }).ToList();
             return ds;
@@ -55,22 +54,25 @@ namespace QLSach.DAO
         public bool KiemTraNV(Nhanvien n)
         {
             Nhanvien k = db.Nhanviens.Find(n.Manv);
-            if (n != null)
+            if (n!=null)
             {
                 return true;
             }
             else
+            {
                 return false;
+            }    
+             
         }
         public void SuaNV(Nhanvien n)
         {
             Nhanvien k = db.Nhanviens.Find(n.Manv);
-            k.Ngaylamviec = n.Ngaylamviec;
-            k.Gioitinh = n.Gioitinh;
-            k.Namsinh = n.Namsinh;
+            k.Tennv = n.Tennv;
             k.SDT = n.SDT;
             k.Diachi = n.Diachi;
-            k.Tennv = n.Tennv;
+            k.Namsinh = n.Namsinh;
+            k.Gioitinh = n.Gioitinh;
+            k.Ngaylamviec = n.Ngaylamviec;
             db.SaveChanges();
         }
         public void XoaNV(Nhanvien n)

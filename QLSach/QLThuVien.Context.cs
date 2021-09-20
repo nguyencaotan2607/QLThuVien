@@ -13,10 +13,10 @@ namespace QLSach
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class QLThuVienEntities : DbContext
+    public partial class QLThuVienEntities1 : DbContext
     {
-        public QLThuVienEntities()
-            : base("name=QLThuVienEntities")
+        public QLThuVienEntities1()
+            : base("name=QLThuVienEntities1")
         {
         }
     
