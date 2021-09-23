@@ -53,13 +53,7 @@ namespace QLSach
             {
                 MessageBox.Show("Không có mã độc giả");
                 return;
-            }
-
-            if (txtMadg.Text.Length != 10)
-            {
-                MessageBox.Show("Mã độc giả không chính xác");
-                return;
-            }
+            }            
 
             Docgia DocGia = new Docgia();
             DocGia.Madg = txtMadg.Text;
@@ -151,15 +145,6 @@ namespace QLSach
         {
             HienThiDSDocGia();
             busDocGia.LayDSNhanVien(cbNV);
-        }
-
-        private void txtMadg_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
-       (e.KeyChar != '.'))
-            {
-                e.Handled = true;
-            }
         }
     }
 }

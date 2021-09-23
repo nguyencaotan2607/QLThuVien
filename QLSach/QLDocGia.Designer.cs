@@ -105,7 +105,7 @@ namespace QLSach
             this.dtpNamSinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpNamSinh.Location = new System.Drawing.Point(400, 125);
             this.dtpNamSinh.Name = "dtpNamSinh";
-            this.dtpNamSinh.Size = new System.Drawing.Size(139, 23);
+            this.dtpNamSinh.Size = new System.Drawing.Size(139, 27);
             this.dtpNamSinh.TabIndex = 62;
             // 
             // dtpNTT
@@ -114,7 +114,7 @@ namespace QLSach
             this.dtpNTT.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpNTT.Location = new System.Drawing.Point(400, 91);
             this.dtpNTT.Name = "dtpNTT";
-            this.dtpNTT.Size = new System.Drawing.Size(139, 23);
+            this.dtpNTT.Size = new System.Drawing.Size(139, 27);
             this.dtpNTT.TabIndex = 62;
             // 
             // btMoi
@@ -179,7 +179,7 @@ namespace QLSach
             this.cbNV.Location = new System.Drawing.Point(80, 120);
             this.cbNV.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbNV.Name = "cbNV";
-            this.cbNV.Size = new System.Drawing.Size(83, 24);
+            this.cbNV.Size = new System.Drawing.Size(83, 27);
             this.cbNV.TabIndex = 53;
             // 
             // txtDiachi
@@ -188,17 +188,17 @@ namespace QLSach
             this.txtDiachi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtDiachi.MaxLength = 50;
             this.txtDiachi.Name = "txtDiachi";
-            this.txtDiachi.Size = new System.Drawing.Size(200, 23);
+            this.txtDiachi.Size = new System.Drawing.Size(200, 27);
             this.txtDiachi.TabIndex = 38;
             // 
             // lbDiachi
             // 
-            this.lbDiachi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.lbDiachi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbDiachi.AutoSize = true;
             this.lbDiachi.Location = new System.Drawing.Point(8, 160);
             this.lbDiachi.Name = "lbDiachi";
-            this.lbDiachi.Size = new System.Drawing.Size(52, 16);
+            this.lbDiachi.Size = new System.Drawing.Size(67, 21);
             this.lbDiachi.TabIndex = 42;
             this.lbDiachi.Text = "Địa chỉ:";
             // 
@@ -207,7 +207,7 @@ namespace QLSach
             this.txtGT.Location = new System.Drawing.Point(400, 153);
             this.txtGT.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtGT.Name = "txtGT";
-            this.txtGT.Size = new System.Drawing.Size(139, 23);
+            this.txtGT.Size = new System.Drawing.Size(139, 27);
             this.txtGT.TabIndex = 39;
             // 
             // txtLop
@@ -215,7 +215,7 @@ namespace QLSach
             this.txtLop.Location = new System.Drawing.Point(400, 53);
             this.txtLop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtLop.Name = "txtLop";
-            this.txtLop.Size = new System.Drawing.Size(139, 23);
+            this.txtLop.Size = new System.Drawing.Size(139, 27);
             this.txtLop.TabIndex = 39;
             // 
             // txtMadg
@@ -224,118 +224,118 @@ namespace QLSach
             this.txtMadg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMadg.MaxLength = 10;
             this.txtMadg.Name = "txtMadg";
-            this.txtMadg.Size = new System.Drawing.Size(176, 23);
+            this.txtMadg.Size = new System.Drawing.Size(176, 27);
             this.txtMadg.TabIndex = 39;
-            this.txtMadg.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMadg_KeyPress);
             // 
             // txtTendg
             // 
             this.txtTendg.Location = new System.Drawing.Point(80, 88);
             this.txtTendg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTendg.Name = "txtTendg";
-            this.txtTendg.Size = new System.Drawing.Size(176, 23);
+            this.txtTendg.Size = new System.Drawing.Size(176, 27);
             this.txtTendg.TabIndex = 39;
             // 
             // lbNgaytaothe
             // 
-            this.lbNgaytaothe.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.lbNgaytaothe.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbNgaytaothe.AutoSize = true;
             this.lbNgaytaothe.Location = new System.Drawing.Point(304, 96);
             this.lbNgaytaothe.Name = "lbNgaytaothe";
-            this.lbNgaytaothe.Size = new System.Drawing.Size(85, 16);
+            this.lbNgaytaothe.Size = new System.Drawing.Size(111, 21);
             this.lbNgaytaothe.TabIndex = 43;
             this.lbNgaytaothe.Text = "Ngày tạo thẻ:";
             // 
             // lbMadg
             // 
-            this.lbMadg.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.lbMadg.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbMadg.AutoSize = true;
             this.lbMadg.Location = new System.Drawing.Point(8, 56);
             this.lbMadg.Name = "lbMadg";
-            this.lbMadg.Size = new System.Drawing.Size(51, 16);
+            this.lbMadg.Size = new System.Drawing.Size(66, 21);
             this.lbMadg.TabIndex = 45;
             this.lbMadg.Text = "Mã ĐG:";
             // 
             // lbNamsinh
             // 
-            this.lbNamsinh.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.lbNamsinh.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbNamsinh.AutoSize = true;
             this.lbNamsinh.Location = new System.Drawing.Point(304, 128);
             this.lbNamsinh.Name = "lbNamsinh";
-            this.lbNamsinh.Size = new System.Drawing.Size(66, 16);
+            this.lbNamsinh.Size = new System.Drawing.Size(85, 21);
             this.lbNamsinh.TabIndex = 40;
             this.lbNamsinh.Text = "Năm sinh:";
             // 
             // lbTendg
             // 
-            this.lbTendg.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.lbTendg.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbTendg.AutoSize = true;
             this.lbTendg.Location = new System.Drawing.Point(8, 96);
             this.lbTendg.Name = "lbTendg";
-            this.lbTendg.Size = new System.Drawing.Size(56, 16);
+            this.lbTendg.Size = new System.Drawing.Size(72, 21);
             this.lbTendg.TabIndex = 47;
             this.lbTendg.Text = "Tên ĐG:";
             // 
             // lbLop
             // 
-            this.lbLop.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.lbLop.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbLop.AutoSize = true;
             this.lbLop.Location = new System.Drawing.Point(304, 64);
             this.lbLop.Name = "lbLop";
-            this.lbLop.Size = new System.Drawing.Size(33, 16);
+            this.lbLop.Size = new System.Drawing.Size(42, 21);
             this.lbLop.TabIndex = 41;
             this.lbLop.Text = "Lớp:";
             // 
             // lbManv
             // 
-            this.lbManv.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.lbManv.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbManv.AutoSize = true;
             this.lbManv.Location = new System.Drawing.Point(8, 128);
             this.lbManv.Name = "lbManv";
-            this.lbManv.Size = new System.Drawing.Size(51, 16);
+            this.lbManv.Size = new System.Drawing.Size(66, 21);
             this.lbManv.TabIndex = 46;
             this.lbManv.Text = "NV tạo:";
             // 
             // lbGioitinh
             // 
-            this.lbGioitinh.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.lbGioitinh.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbGioitinh.AutoSize = true;
             this.lbGioitinh.Location = new System.Drawing.Point(304, 160);
             this.lbGioitinh.Name = "lbGioitinh";
-            this.lbGioitinh.Size = new System.Drawing.Size(59, 16);
+            this.lbGioitinh.Size = new System.Drawing.Size(77, 21);
             this.lbGioitinh.TabIndex = 44;
             this.lbGioitinh.Text = "Giới tính:";
             // 
             // dgDocgia
             // 
-            this.dgDocgia.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.dgDocgia.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgDocgia.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgDocgia.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgDocgia.Location = new System.Drawing.Point(6, 17);
             this.dgDocgia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgDocgia.Name = "dgDocgia";
-            this.dgDocgia.Size = new System.Drawing.Size(543, 121);
+            this.dgDocgia.RowHeadersWidth = 51;
+            this.dgDocgia.Size = new System.Drawing.Size(543, 120);
             this.dgDocgia.TabIndex = 1;
             this.dgDocgia.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgDocgia_CellClick);
             // 
-            // frmDocgia
+            // QLDocGia
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(555, 400);
             this.Controls.Add(this.splitContainer1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "frmDocgia";
+            this.Name = "QLDocGia";
             this.Text = "frmDocgia";
             this.Load += new System.EventHandler(this.frmDocgia_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);

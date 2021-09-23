@@ -52,3 +52,20 @@ C:\Users\Lenovo\Desktop\Di Động\QLThuVien\QLSach\obj\x86\Debug\QLSach.csproj.
 C:\Users\Lenovo\Desktop\Di Động\QLThuVien\QLSach\obj\x86\Debug\QLSach.csproj.CopyComplete
 C:\Users\Lenovo\Desktop\Di Động\QLThuVien\QLSach\obj\x86\Debug\QLSach.exe
 C:\Users\Lenovo\Desktop\Di Động\QLThuVien\QLSach\obj\x86\Debug\QLSach.pdb
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\bin\Debug\QLSach.exe.config
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\bin\Debug\QLSach.exe
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\bin\Debug\QLSach.pdb
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\obj\x86\Debug\QLSach.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\obj\x86\Debug\QLSach.Form1.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\obj\x86\Debug\QLSach.Login.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\obj\x86\Debug\QLSach.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\obj\x86\Debug\QLSach.QLDocGia.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\obj\x86\Debug\QLSach.QLNhanVien.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\obj\x86\Debug\QLSach.QuanLy.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\obj\x86\Debug\QLSach.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\obj\x86\Debug\QLSach.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\obj\x86\Debug\QLSach.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\obj\x86\Debug\QLSach.exe
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\BTLON\QLThuVien\QLSach\obj\x86\Debug\QLSach.pdb
