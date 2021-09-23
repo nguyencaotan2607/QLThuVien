@@ -53,15 +53,6 @@ namespace QLSach.DAO
             return ds;
         }
 
-        public dynamic LayDSMaSach()
-        {
-            var ds = db.Saches.Select(s => new
-            {
-                s.Masach
-
-            }).ToList();
-            return ds;
-        }
 
         public dynamic LayDSLoaiSach()
         {
@@ -77,6 +68,38 @@ namespace QLSach.DAO
         public void ThemSach(Sach themSach)
         {
             db.Saches.Add(themSach);
+            db.SaveChanges();
+        }
+
+        public void SuaSach(Sach n)
+        {
+            Sach k = db.Saches.Find(n.Masach);
+            k.Tensach = n.Tensach;
+            k.Loaisach = n.Loaisach;
+            k.Linhvuc = n.Linhvuc;
+            k.Tacgia = n.Tacgia;
+            k.NXB = n.NXB;
+            k.Ngayxuatban = n.Ngayxuatban;
+            db.SaveChanges();
+        }
+        public bool KiemTraSach(Sach n)
+        {
+            Sach k = db.Saches.Find(n.Masach);
+            if (n != null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
+
+        public void XoaSach(Sach n)
+        {
+            Sach k = db.Saches.Find(n.Masach);
+            db.Saches.Remove(k);
             db.SaveChanges();
         }
 

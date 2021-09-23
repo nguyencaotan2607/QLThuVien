@@ -86,15 +86,6 @@ namespace QLSach
             {
                 MessageBox.Show("Thêm độc giả thất bại");
             }
-
-            txtMadg.Clear();
-            txtTendg.Clear();
-            txtDiachi.Clear();
-            txtLop.Clear();
-            txtGT.Clear();
-            busDocGia.LayDSNhanVien(cbNV);
-            dtpNamSinh.ResetText();
-            dtpNTT.ResetText();
         }
 
         private void btSua_Click(object sender, EventArgs e)
@@ -153,14 +144,6 @@ namespace QLSach
                 MessageBox.Show("Xóa độc giả thất bại");
             }
 
-            txtMadg.Clear();
-            txtTendg.Clear();
-            txtDiachi.Clear();
-            txtLop.Clear();
-            txtGT.Clear();
-            busDocGia.LayDSNhanVien(cbNV);
-            dtpNamSinh.ResetText();
-            dtpNTT.ResetText();
 
         }
 

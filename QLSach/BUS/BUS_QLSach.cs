@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using QLSach.DAO;
 using System.Windows.Forms;
+using System.Data.Entity.Infrastructure;
 
 namespace QLSach.BUS
 {
@@ -15,7 +16,10 @@ namespace QLSach.BUS
             dSach = new DAO_QLSach();
         
         }
-
+        public void HienThiDSSach(DataGridView dg)
+        {
+            dg.DataSource = dSach.LayDSSach();
+        }
         public void LayDSSach(DataGridView dg)
         {
             dg.DataSource = dSach.LayDSSach();
@@ -35,12 +39,6 @@ namespace QLSach.BUS
             cb.ValueMember = "Linhvuc";
         }
 
-        public void LayDSMaSach(ComboBox cb)
-        {
-            cb.DataSource = dSach.LayDSMaSach();
-            cb.DisplayMember = "Masach";
-            cb.ValueMember = "Masach";
-        }
 
         public void LayDSLoaiSach(ComboBox cb)
         {
@@ -50,7 +48,7 @@ namespace QLSach.BUS
         }
 
 
-        public bool ThemSach(Sach S)
+        public bool TaoSach(Sach S)
         {
 
             try
@@ -61,6 +59,50 @@ namespace QLSach.BUS
             catch (Exception)
             {
 
+                return false;
+            }
+        }
+
+
+
+        public bool SuaSach(Sach n)
+        {
+            if (dSach.KiemTraSach(n))
+            {
+                try
+                {
+                    dSach.SuaSach(n);
+                    return true;
+                }
+                catch (DbUpdateException ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+
+        }
+
+
+        public bool XoaSach(Sach n)
+        {
+            if (dSach.KiemTraSach(n))
+                try
+                {
+                    dSach.XoaSach(n);
+                    return true;
+                }
+                catch (DbUpdateException ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    return false;
+                }
+            else
+            {
                 return false;
             }
         }

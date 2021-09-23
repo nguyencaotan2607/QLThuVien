@@ -23,7 +23,6 @@ namespace QLSach
         {
             HienthiDSSach();
             busSach.LayDSNXB(cbNXB);
-            busSach.LayDSMaSach(cbMasach);
             busSach.LayDSLoaiSach(cbLoaisach);
             busSach.LayDSLinhVuc(cbLinhvuc);
             CapNhat();
@@ -52,7 +51,7 @@ namespace QLSach
         {
             if (e.RowIndex >= 0 && e.RowIndex < dgSach.Rows.Count)
             {
-                cbMasach.Text = dgSach.Rows[e.RowIndex].Cells["Masach"].Value.ToString();
+                txtmasach.Text = dgSach.Rows[e.RowIndex].Cells["Masach"].Value.ToString();
                 txtTensach.Text = dgSach.Rows[e.RowIndex].Cells["Tensach"].Value.ToString();
                 cbLoaisach.Text = dgSach.Rows[e.RowIndex].Cells["Loaisach"].Value.ToString();
                 cbLinhvuc.Text = dgSach.Rows[e.RowIndex].Cells["Linhvuc"].Value.ToString();
@@ -64,27 +63,77 @@ namespace QLSach
 
         private void btThem_Click(object sender, EventArgs e)
         {
-            Sach QLSach = new Sach();
-            QLSach.Masach = cbMasach.SelectedValue.ToString();
-            QLSach.Tensach = txtTensach.Text;
-            QLSach.Loaisach = cbMasach.SelectedValue.ToString();
-            QLSach.Linhvuc = cbLinhvuc.SelectedValue.ToString();
-            QLSach.Tacgia = txtTacgia.Text;
-            QLSach.NXB = cbNXB.SelectedValue.ToString();
-            QLSach.Ngayxuatban = dtpNXB.Value;
-
+            Sach n = new Sach();
+            n.Masach = txtmasach.Text;
+            n.Tensach = txtTensach.Text;
+            n.Loaisach = cbLoaisach.SelectedValue.ToString();
+            n.Linhvuc = cbLinhvuc.SelectedValue.ToString();
+            n.Tacgia = txtTacgia.Text;
+            n.NXB = cbNXB.SelectedValue.ToString();
+            n.Ngayxuatban = dtpNXB.Value;
             //Gọi BUS
-            if(busSach.ThemSach(QLSach))
+            if (busSach.TaoSach(n))
             {
-                MessageBox.Show("Thêm Sách Thành Công");
-                busSach.LayDSSach(dgSach);
-            }else
+                MessageBox.Show("Thêm Nhân Viên Thành Công");
+                busSach.HienThiDSSach(dgSach);
+            }
+            else
             {
-                MessageBox.Show("Thêm Sách không Thành Công");
+                MessageBox.Show("Thêm Nhân Viên không Thành Công");
             }
         }
-      
 
+        private void btSua_Click(object sender, EventArgs e)
+        {
+            Sach n = new Sach();
+            n.Masach = txtmasach.Text;
+            n.Tensach = txtTensach.Text;
+            n.Loaisach = cbLoaisach.SelectedValue.ToString();
+            n.Linhvuc = cbLinhvuc.SelectedValue.ToString();
+            n.Tacgia = txtTacgia.Text;
+            n.NXB = cbNXB.SelectedValue.ToString();
+            n.Ngayxuatban = dtpNXB.Value;
 
+            if (busSach.SuaSach(n))
+            {
+                MessageBox.Show("Sửa Nhân Viên thành công");
+                busSach.HienThiDSSach(dgSach);
+            }
+            else
+            {
+                MessageBox.Show("Sửa Nhân Viên thất bại");
+            }
+        }
+
+        private void btXoa_Click(object sender, EventArgs e)
+        {
+            Sach n = new Sach();
+            n.Masach = txtmasach.Text;
+
+            if (busSach.XoaSach(n))
+            {
+                MessageBox.Show("Xoá Nhân Viên thành công");
+                busSach.HienThiDSSach(dgSach);
+            }
+            else
+            {
+                MessageBox.Show("Xoá Nhân Viên thất bại");
+            }
+        }
+
+        private void btMoi_Click(object sender, EventArgs e)
+        {
+            HienthiDSSach();
+        }
+
+        private void btnTrove_Click(object sender, EventArgs e)
+        {
+            DialogResult f = MessageBox.Show("Bạn có muốn trở về? ?", " Thông Báo ", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (f == DialogResult.Yes)
+            {
+                QuanLy ql = new QuanLy();
+                ql.ShowDialog();
+            }
+        }
     }
 }

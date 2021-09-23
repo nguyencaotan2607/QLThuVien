@@ -8,11 +8,11 @@ namespace QLSach.DAO
 {
     class DAODocGia
     {
-        QLThuVienEntities db;
+        QLThuVienEntities1 db;
 
         public DAODocGia()
         {
-            db = new QLThuVienEntities();
+            db = new QLThuVienEntities1();
         }
 
         public dynamic LayDSDocGia()

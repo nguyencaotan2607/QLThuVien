@@ -41,7 +41,6 @@
             this.lbLoaisach = new System.Windows.Forms.Label();
             this.lbNgayxuatban = new System.Windows.Forms.Label();
             this.lbLinhvuc = new System.Windows.Forms.Label();
-            this.cbMasach = new System.Windows.Forms.ComboBox();
             this.cbLoaisach = new System.Windows.Forms.ComboBox();
             this.cbLinhvuc = new System.Windows.Forms.ComboBox();
             this.lbNXB = new System.Windows.Forms.Label();
@@ -52,13 +51,15 @@
             this.lbLVuc = new System.Windows.Forms.Label();
             this.dgSach = new System.Windows.Forms.DataGridView();
             this.dtpNXB = new System.Windows.Forms.DateTimePicker();
+            this.txtmasach = new System.Windows.Forms.TextBox();
+            this.btnTrove = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgSach)).BeginInit();
             this.SuspendLayout();
             // 
             // lbSach
             // 
-            this.lbSach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbSach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbSach.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.lbSach.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lbSach.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold);
@@ -71,9 +72,9 @@
             // 
             // btThem
             // 
-            this.btThem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.btThem.Location = new System.Drawing.Point(347, 220);
+            this.btThem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btThem.Location = new System.Drawing.Point(289, 220);
             this.btThem.Name = "btThem";
             this.btThem.Size = new System.Drawing.Size(97, 54);
             this.btThem.TabIndex = 49;
@@ -83,41 +84,44 @@
             // 
             // btSua
             // 
-            this.btSua.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.btSua.Location = new System.Drawing.Point(521, 220);
+            this.btSua.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btSua.Location = new System.Drawing.Point(466, 220);
             this.btSua.Name = "btSua";
             this.btSua.Size = new System.Drawing.Size(108, 54);
             this.btSua.TabIndex = 47;
             this.btSua.Text = "&Sửa";
             this.btSua.UseVisualStyleBackColor = true;
+            this.btSua.Click += new System.EventHandler(this.btSua_Click);
             // 
             // btXoa
             // 
-            this.btXoa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.btXoa.Location = new System.Drawing.Point(702, 220);
+            this.btXoa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btXoa.Location = new System.Drawing.Point(648, 220);
             this.btXoa.Name = "btXoa";
             this.btXoa.Size = new System.Drawing.Size(98, 54);
             this.btXoa.TabIndex = 46;
             this.btXoa.Text = "&Xóa";
             this.btXoa.UseVisualStyleBackColor = true;
+            this.btXoa.Click += new System.EventHandler(this.btXoa_Click);
             // 
             // btMoi
             // 
-            this.btMoi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.btMoi.Location = new System.Drawing.Point(169, 220);
+            this.btMoi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btMoi.Location = new System.Drawing.Point(96, 220);
             this.btMoi.Name = "btMoi";
             this.btMoi.Size = new System.Drawing.Size(109, 54);
             this.btMoi.TabIndex = 48;
-            this.btMoi.Text = "&Mới";
+            this.btMoi.Text = "Làm Mới";
             this.btMoi.UseVisualStyleBackColor = true;
+            this.btMoi.Click += new System.EventHandler(this.btMoi_Click);
             // 
             // txtTensach
             // 
-            this.txtTensach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtTensach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtTensach.Location = new System.Drawing.Point(96, 79);
             this.txtTensach.Name = "txtTensach";
             this.txtTensach.Size = new System.Drawing.Size(210, 27);
@@ -125,8 +129,8 @@
             // 
             // txtTacgia
             // 
-            this.txtTacgia.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtTacgia.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtTacgia.Location = new System.Drawing.Point(497, 53);
             this.txtTacgia.Name = "txtTacgia";
             this.txtTacgia.Size = new System.Drawing.Size(471, 27);
@@ -134,8 +138,8 @@
             // 
             // lbMasach
             // 
-            this.lbMasach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbMasach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbMasach.AutoSize = true;
             this.lbMasach.Location = new System.Drawing.Point(0, 0);
             this.lbMasach.Name = "lbMasach";
@@ -145,8 +149,8 @@
             // 
             // lbTensach
             // 
-            this.lbTensach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbTensach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbTensach.AutoSize = true;
             this.lbTensach.Location = new System.Drawing.Point(0, 0);
             this.lbTensach.Name = "lbTensach";
@@ -156,8 +160,8 @@
             // 
             // lbTacgia
             // 
-            this.lbTacgia.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbTacgia.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbTacgia.AutoSize = true;
             this.lbTacgia.Location = new System.Drawing.Point(405, 59);
             this.lbTacgia.Name = "lbTacgia";
@@ -167,8 +171,8 @@
             // 
             // lbLoaisach
             // 
-            this.lbLoaisach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbLoaisach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbLoaisach.AutoSize = true;
             this.lbLoaisach.Location = new System.Drawing.Point(0, 0);
             this.lbLoaisach.Name = "lbLoaisach";
@@ -178,8 +182,8 @@
             // 
             // lbNgayxuatban
             // 
-            this.lbNgayxuatban.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbNgayxuatban.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbNgayxuatban.AutoSize = true;
             this.lbNgayxuatban.Location = new System.Drawing.Point(353, 112);
             this.lbNgayxuatban.Name = "lbNgayxuatban";
@@ -189,8 +193,8 @@
             // 
             // lbLinhvuc
             // 
-            this.lbLinhvuc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbLinhvuc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbLinhvuc.AutoSize = true;
             this.lbLinhvuc.Location = new System.Drawing.Point(0, 0);
             this.lbLinhvuc.Name = "lbLinhvuc";
@@ -198,20 +202,10 @@
             this.lbLinhvuc.TabIndex = 40;
             this.lbLinhvuc.Text = "Lĩnh vực:";
             // 
-            // cbMasach
-            // 
-            this.cbMasach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.cbMasach.FormattingEnabled = true;
-            this.cbMasach.Location = new System.Drawing.Point(96, 48);
-            this.cbMasach.Name = "cbMasach";
-            this.cbMasach.Size = new System.Drawing.Size(210, 27);
-            this.cbMasach.TabIndex = 53;
-            // 
             // cbLoaisach
             // 
-            this.cbLoaisach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbLoaisach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cbLoaisach.FormattingEnabled = true;
             this.cbLoaisach.Location = new System.Drawing.Point(96, 113);
             this.cbLoaisach.Name = "cbLoaisach";
@@ -220,8 +214,8 @@
             // 
             // cbLinhvuc
             // 
-            this.cbLinhvuc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbLinhvuc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cbLinhvuc.FormattingEnabled = true;
             this.cbLinhvuc.Location = new System.Drawing.Point(96, 145);
             this.cbLinhvuc.Name = "cbLinhvuc";
@@ -230,8 +224,8 @@
             // 
             // lbNXB
             // 
-            this.lbNXB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbNXB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbNXB.AutoSize = true;
             this.lbNXB.Location = new System.Drawing.Point(428, 83);
             this.lbNXB.Name = "lbNXB";
@@ -241,8 +235,8 @@
             // 
             // cbNXB
             // 
-            this.cbNXB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbNXB.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cbNXB.FormattingEnabled = true;
             this.cbNXB.Location = new System.Drawing.Point(497, 81);
             this.cbNXB.Name = "cbNXB";
@@ -291,6 +285,7 @@
             this.dgSach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgSach.Location = new System.Drawing.Point(4, 319);
             this.dgSach.Name = "dgSach";
+            this.dgSach.RowHeadersWidth = 51;
             this.dgSach.RowTemplate.Height = 24;
             this.dgSach.Size = new System.Drawing.Size(964, 208);
             this.dgSach.TabIndex = 59;
@@ -303,11 +298,34 @@
             this.dtpNXB.Size = new System.Drawing.Size(471, 27);
             this.dtpNXB.TabIndex = 60;
             // 
+            // txtmasach
+            // 
+            this.txtmasach.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtmasach.Location = new System.Drawing.Point(96, 41);
+            this.txtmasach.Name = "txtmasach";
+            this.txtmasach.Size = new System.Drawing.Size(210, 27);
+            this.txtmasach.TabIndex = 61;
+            // 
+            // btnTrove
+            // 
+            this.btnTrove.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnTrove.Location = new System.Drawing.Point(817, 220);
+            this.btnTrove.Name = "btnTrove";
+            this.btnTrove.Size = new System.Drawing.Size(98, 54);
+            this.btnTrove.TabIndex = 62;
+            this.btnTrove.Text = "Trở Về";
+            this.btnTrove.UseVisualStyleBackColor = true;
+            this.btnTrove.Click += new System.EventHandler(this.btnTrove_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(971, 539);
+            this.Controls.Add(this.btnTrove);
+            this.Controls.Add(this.txtmasach);
             this.Controls.Add(this.dtpNXB);
             this.Controls.Add(this.dgSach);
             this.Controls.Add(this.lbLVuc);
@@ -326,7 +344,6 @@
             this.Controls.Add(this.lbTacgia);
             this.Controls.Add(this.lbLoaisach);
             this.Controls.Add(this.lbNgayxuatban);
-            this.Controls.Add(this.cbMasach);
             this.Controls.Add(this.lbLinhvuc);
             this.Controls.Add(this.cbLoaisach);
             this.Controls.Add(this.cbLinhvuc);
@@ -358,7 +375,6 @@
         private System.Windows.Forms.Label lbLoaisach;
         private System.Windows.Forms.Label lbNgayxuatban;
         private System.Windows.Forms.Label lbLinhvuc;
-        private System.Windows.Forms.ComboBox cbMasach;
         private System.Windows.Forms.ComboBox cbLoaisach;
         private System.Windows.Forms.ComboBox cbLinhvuc;
         private System.Windows.Forms.Label lbNXB;
@@ -369,6 +385,7 @@
         private System.Windows.Forms.Label lbLVuc;
         private System.Windows.Forms.DataGridView dgSach;
         private System.Windows.Forms.DateTimePicker dtpNXB;
-
+        private System.Windows.Forms.TextBox txtmasach;
+        private System.Windows.Forms.Button btnTrove;
     }
 }
