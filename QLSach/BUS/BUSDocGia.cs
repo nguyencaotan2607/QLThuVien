@@ -20,7 +20,7 @@ namespace QLSach.BUS
             dDocGia = new DAODocGia();
         }
 
-        public void HienThiDSDonHang(DataGridView dg)
+        public void HienThiDSDocGia(DataGridView dg)
         {
             dg.DataSource = dDocGia.LayDSDocGia();
             for (int i = 0; i < dg.Columns.Count; i++)

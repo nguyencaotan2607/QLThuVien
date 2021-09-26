@@ -32,7 +32,8 @@ namespace QLSach
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.dtpNamSinh = new System.Windows.Forms.DateTimePicker();
             this.dtpNTT = new System.Windows.Forms.DateTimePicker();
-            this.btMoi = new System.Windows.Forms.Button();
+            this.btTV = new System.Windows.Forms.Button();
+            this.btBC = new System.Windows.Forms.Button();
             this.btXoa = new System.Windows.Forms.Button();
             this.btSua = new System.Windows.Forms.Button();
             this.btThem = new System.Windows.Forms.Button();
@@ -71,7 +72,8 @@ namespace QLSach
             // 
             this.splitContainer1.Panel1.Controls.Add(this.dtpNamSinh);
             this.splitContainer1.Panel1.Controls.Add(this.dtpNTT);
-            this.splitContainer1.Panel1.Controls.Add(this.btMoi);
+            this.splitContainer1.Panel1.Controls.Add(this.btTV);
+            this.splitContainer1.Panel1.Controls.Add(this.btBC);
             this.splitContainer1.Panel1.Controls.Add(this.btXoa);
             this.splitContainer1.Panel1.Controls.Add(this.btSua);
             this.splitContainer1.Panel1.Controls.Add(this.btThem);
@@ -105,7 +107,7 @@ namespace QLSach
             this.dtpNamSinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpNamSinh.Location = new System.Drawing.Point(400, 125);
             this.dtpNamSinh.Name = "dtpNamSinh";
-            this.dtpNamSinh.Size = new System.Drawing.Size(139, 27);
+            this.dtpNamSinh.Size = new System.Drawing.Size(139, 23);
             this.dtpNamSinh.TabIndex = 62;
             // 
             // dtpNTT
@@ -114,19 +116,30 @@ namespace QLSach
             this.dtpNTT.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpNTT.Location = new System.Drawing.Point(400, 91);
             this.dtpNTT.Name = "dtpNTT";
-            this.dtpNTT.Size = new System.Drawing.Size(139, 27);
+            this.dtpNTT.Size = new System.Drawing.Size(139, 23);
             this.dtpNTT.TabIndex = 62;
             // 
-            // btMoi
+            // btTV
             // 
-            this.btMoi.Location = new System.Drawing.Point(136, 184);
-            this.btMoi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btMoi.Name = "btMoi";
-            this.btMoi.Size = new System.Drawing.Size(88, 30);
-            this.btMoi.TabIndex = 60;
-            this.btMoi.Text = "&Mới";
-            this.btMoi.UseVisualStyleBackColor = true;
-            this.btMoi.Click += new System.EventHandler(this.btMoi_Click);
+            this.btTV.Location = new System.Drawing.Point(31, 184);
+            this.btTV.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btTV.Name = "btTV";
+            this.btTV.Size = new System.Drawing.Size(88, 30);
+            this.btTV.TabIndex = 60;
+            this.btTV.Text = "Trở về";
+            this.btTV.UseVisualStyleBackColor = true;
+            this.btTV.Click += new System.EventHandler(this.btTV_Click);
+            // 
+            // btBC
+            // 
+            this.btBC.Location = new System.Drawing.Point(136, 184);
+            this.btBC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btBC.Name = "btBC";
+            this.btBC.Size = new System.Drawing.Size(88, 30);
+            this.btBC.TabIndex = 60;
+            this.btBC.Text = "Báo cáo";
+            this.btBC.UseVisualStyleBackColor = true;
+            this.btBC.Click += new System.EventHandler(this.btBC_Click);
             // 
             // btXoa
             // 
@@ -179,7 +192,7 @@ namespace QLSach
             this.cbNV.Location = new System.Drawing.Point(80, 120);
             this.cbNV.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbNV.Name = "cbNV";
-            this.cbNV.Size = new System.Drawing.Size(83, 27);
+            this.cbNV.Size = new System.Drawing.Size(83, 24);
             this.cbNV.TabIndex = 53;
             // 
             // txtDiachi
@@ -188,7 +201,7 @@ namespace QLSach
             this.txtDiachi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtDiachi.MaxLength = 50;
             this.txtDiachi.Name = "txtDiachi";
-            this.txtDiachi.Size = new System.Drawing.Size(200, 27);
+            this.txtDiachi.Size = new System.Drawing.Size(200, 23);
             this.txtDiachi.TabIndex = 38;
             // 
             // lbDiachi
@@ -198,7 +211,7 @@ namespace QLSach
             this.lbDiachi.AutoSize = true;
             this.lbDiachi.Location = new System.Drawing.Point(8, 160);
             this.lbDiachi.Name = "lbDiachi";
-            this.lbDiachi.Size = new System.Drawing.Size(67, 21);
+            this.lbDiachi.Size = new System.Drawing.Size(52, 16);
             this.lbDiachi.TabIndex = 42;
             this.lbDiachi.Text = "Địa chỉ:";
             // 
@@ -207,7 +220,7 @@ namespace QLSach
             this.txtGT.Location = new System.Drawing.Point(400, 153);
             this.txtGT.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtGT.Name = "txtGT";
-            this.txtGT.Size = new System.Drawing.Size(139, 27);
+            this.txtGT.Size = new System.Drawing.Size(139, 23);
             this.txtGT.TabIndex = 39;
             // 
             // txtLop
@@ -215,7 +228,7 @@ namespace QLSach
             this.txtLop.Location = new System.Drawing.Point(400, 53);
             this.txtLop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtLop.Name = "txtLop";
-            this.txtLop.Size = new System.Drawing.Size(139, 27);
+            this.txtLop.Size = new System.Drawing.Size(139, 23);
             this.txtLop.TabIndex = 39;
             // 
             // txtMadg
@@ -224,7 +237,7 @@ namespace QLSach
             this.txtMadg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtMadg.MaxLength = 10;
             this.txtMadg.Name = "txtMadg";
-            this.txtMadg.Size = new System.Drawing.Size(176, 27);
+            this.txtMadg.Size = new System.Drawing.Size(176, 23);
             this.txtMadg.TabIndex = 39;
             // 
             // txtTendg
@@ -232,7 +245,7 @@ namespace QLSach
             this.txtTendg.Location = new System.Drawing.Point(80, 88);
             this.txtTendg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTendg.Name = "txtTendg";
-            this.txtTendg.Size = new System.Drawing.Size(176, 27);
+            this.txtTendg.Size = new System.Drawing.Size(176, 23);
             this.txtTendg.TabIndex = 39;
             // 
             // lbNgaytaothe
@@ -242,7 +255,7 @@ namespace QLSach
             this.lbNgaytaothe.AutoSize = true;
             this.lbNgaytaothe.Location = new System.Drawing.Point(304, 96);
             this.lbNgaytaothe.Name = "lbNgaytaothe";
-            this.lbNgaytaothe.Size = new System.Drawing.Size(111, 21);
+            this.lbNgaytaothe.Size = new System.Drawing.Size(85, 16);
             this.lbNgaytaothe.TabIndex = 43;
             this.lbNgaytaothe.Text = "Ngày tạo thẻ:";
             // 
@@ -253,7 +266,7 @@ namespace QLSach
             this.lbMadg.AutoSize = true;
             this.lbMadg.Location = new System.Drawing.Point(8, 56);
             this.lbMadg.Name = "lbMadg";
-            this.lbMadg.Size = new System.Drawing.Size(66, 21);
+            this.lbMadg.Size = new System.Drawing.Size(51, 16);
             this.lbMadg.TabIndex = 45;
             this.lbMadg.Text = "Mã ĐG:";
             // 
@@ -264,7 +277,7 @@ namespace QLSach
             this.lbNamsinh.AutoSize = true;
             this.lbNamsinh.Location = new System.Drawing.Point(304, 128);
             this.lbNamsinh.Name = "lbNamsinh";
-            this.lbNamsinh.Size = new System.Drawing.Size(85, 21);
+            this.lbNamsinh.Size = new System.Drawing.Size(66, 16);
             this.lbNamsinh.TabIndex = 40;
             this.lbNamsinh.Text = "Năm sinh:";
             // 
@@ -275,7 +288,7 @@ namespace QLSach
             this.lbTendg.AutoSize = true;
             this.lbTendg.Location = new System.Drawing.Point(8, 96);
             this.lbTendg.Name = "lbTendg";
-            this.lbTendg.Size = new System.Drawing.Size(72, 21);
+            this.lbTendg.Size = new System.Drawing.Size(56, 16);
             this.lbTendg.TabIndex = 47;
             this.lbTendg.Text = "Tên ĐG:";
             // 
@@ -286,7 +299,7 @@ namespace QLSach
             this.lbLop.AutoSize = true;
             this.lbLop.Location = new System.Drawing.Point(304, 64);
             this.lbLop.Name = "lbLop";
-            this.lbLop.Size = new System.Drawing.Size(42, 21);
+            this.lbLop.Size = new System.Drawing.Size(33, 16);
             this.lbLop.TabIndex = 41;
             this.lbLop.Text = "Lớp:";
             // 
@@ -297,7 +310,7 @@ namespace QLSach
             this.lbManv.AutoSize = true;
             this.lbManv.Location = new System.Drawing.Point(8, 128);
             this.lbManv.Name = "lbManv";
-            this.lbManv.Size = new System.Drawing.Size(66, 21);
+            this.lbManv.Size = new System.Drawing.Size(51, 16);
             this.lbManv.TabIndex = 46;
             this.lbManv.Text = "NV tạo:";
             // 
@@ -308,7 +321,7 @@ namespace QLSach
             this.lbGioitinh.AutoSize = true;
             this.lbGioitinh.Location = new System.Drawing.Point(304, 160);
             this.lbGioitinh.Name = "lbGioitinh";
-            this.lbGioitinh.Size = new System.Drawing.Size(77, 21);
+            this.lbGioitinh.Size = new System.Drawing.Size(59, 16);
             this.lbGioitinh.TabIndex = 44;
             this.lbGioitinh.Text = "Giới tính:";
             // 
@@ -323,13 +336,13 @@ namespace QLSach
             this.dgDocgia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgDocgia.Name = "dgDocgia";
             this.dgDocgia.RowHeadersWidth = 51;
-            this.dgDocgia.Size = new System.Drawing.Size(543, 120);
+            this.dgDocgia.Size = new System.Drawing.Size(543, 117);
             this.dgDocgia.TabIndex = 1;
             this.dgDocgia.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgDocgia_CellClick);
             // 
             // QLDocGia
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(555, 400);
             this.Controls.Add(this.splitContainer1);
@@ -365,7 +378,7 @@ namespace QLSach
         private System.Windows.Forms.Label lbLop;
         private System.Windows.Forms.Label lbManv;
         private System.Windows.Forms.Label lbGioitinh;
-        private System.Windows.Forms.Button btMoi;
+        private System.Windows.Forms.Button btBC;
         private System.Windows.Forms.Button btXoa;
         private System.Windows.Forms.Button btSua;
         private System.Windows.Forms.Button btThem;
@@ -375,6 +388,7 @@ namespace QLSach
         private System.Windows.Forms.DateTimePicker dtpNamSinh;
         private System.Windows.Forms.DateTimePicker dtpNTT;
         private System.Windows.Forms.TextBox txtGT;
+        private System.Windows.Forms.Button btTV;
     }
 }
 

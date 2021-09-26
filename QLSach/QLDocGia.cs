@@ -23,7 +23,7 @@ namespace QLSach
         private void HienThiDSDocGia()
         {
             dgDocgia.DataSource = null;
-            busDocGia.HienThiDSDonHang(dgDocgia);
+            busDocGia.HienThiDSDocGia(dgDocgia);
         }
 
         private void frmDocgia_Load(object sender, EventArgs e)
@@ -74,12 +74,22 @@ namespace QLSach
             if (busDocGia.TaoDG(DocGia))
             {
                 MessageBox.Show("Thêm độc giả thành công");
-                busDocGia.HienThiDSDonHang(dgDocgia);
+                busDocGia.HienThiDSDocGia(dgDocgia);
             }
             else
             {
                 MessageBox.Show("Thêm độc giả thất bại");
             }
+
+            txtMadg.Clear();
+            txtTendg.Clear();
+            txtDiachi.Clear();
+            txtLop.Clear();
+            txtGT.Clear();
+            busDocGia.LayDSNhanVien(cbNV);
+            dtpNamSinh.ResetText();
+            dtpNTT.ResetText();
+
         }
 
         private void btSua_Click(object sender, EventArgs e)
@@ -109,7 +119,7 @@ namespace QLSach
             if (busDocGia.SuaDH(d))
             {
                 MessageBox.Show("Lưu thay đổi thành công");
-                busDocGia.HienThiDSDonHang(dgDocgia);
+                busDocGia.HienThiDSDocGia(dgDocgia);
             }
             else
             {
@@ -131,20 +141,31 @@ namespace QLSach
             if (busDocGia.XoaDH(d))
             {
                 MessageBox.Show("Xóa độc giả thành công");
-                busDocGia.HienThiDSDonHang(dgDocgia);
+                busDocGia.HienThiDSDocGia(dgDocgia);
             }
             else
             {
                 MessageBox.Show("Xóa độc giả thất bại");
             }
 
+            txtMadg.Clear();
+            txtTendg.Clear();
+            txtDiachi.Clear();
+            txtLop.Clear();
+            txtGT.Clear();
+            busDocGia.LayDSNhanVien(cbNV);
+            dtpNamSinh.ResetText();
+            dtpNTT.ResetText();
+
+        }
+        private void btBC_Click(object sender, EventArgs e)
+        {
 
         }
 
-        private void btMoi_Click(object sender, EventArgs e)
+        private void btTV_Click(object sender, EventArgs e)
         {
-            HienThiDSDocGia();
-            busDocGia.LayDSNhanVien(cbNV);
+            this.Close();
         }
     }
 }
