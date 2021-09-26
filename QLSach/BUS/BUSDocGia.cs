@@ -29,6 +29,11 @@ namespace QLSach.BUS
             }
         }
 
+        public List<Docgia> HienThiDSDocGiaRP()
+        {
+            return dDocGia.LayDSDocGiaRP();
+        }
+
         public void LayDSNhanVien(ComboBox cb)
         {
             cb.DataSource = dDocGia.LayDSNV();

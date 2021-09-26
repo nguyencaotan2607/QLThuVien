@@ -31,6 +31,12 @@ namespace QLSach.DAO
             return ds;
         }
 
+        public List<Docgia> LayDSDocGiaRP()
+        {
+            var ds = db.Docgias.Select(s => s).OrderByDescending(p => p.Ngaytaothe).ToList();
+            return ds;
+        }
+
         public dynamic LayDSNV()
         {
             var ds = db.Nhanviens.Select(s => new

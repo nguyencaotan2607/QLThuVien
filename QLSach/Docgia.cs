@@ -21,11 +21,11 @@ namespace QLSach
     
         public string Madg { get; set; }
         public string Tendg { get; set; }
-        public Nullable<System.DateTime> Namsinh { get; set; }
+        public System.DateTime Namsinh { get; set; }
         public string Gioitinh { get; set; }
         public string Diachi { get; set; }
         public string Lop { get; set; }
-        public Nullable<System.DateTime> Ngaytaothe { get; set; }
+        public System.DateTime Ngaytaothe { get; set; }
         public string Manv { get; set; }
     
         public virtual ICollection<CTPM> CTPMs { get; set; }

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QLSach.Report;
 
 namespace QLSach
 {
@@ -160,7 +161,13 @@ namespace QLSach
         }
         private void btBC_Click(object sender, EventArgs e)
         {
+            RPDocGia r = new RPDocGia();
+            RPDocGia f = new RPDocGia();
 
+            r.SetDataSource(busDocGia.HienThiDSDocGiaRP().ToList());
+            f.crystalReportViewer1.ReportSource = r;
+
+            f.Show();
         }
 
         private void btTV_Click(object sender, EventArgs e)
