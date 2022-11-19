@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLSachModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CTPM">
+    <Key>
+      <PropertyRef Name="Maphieu" />
+      <PropertyRef Name="Manv" />
+      <PropertyRef Name="Madg" />
+      <PropertyRef Name="Masach" />
+    </Key>
+    <Property Name="Maphieu" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Manv" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Madg" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Masach" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Ngaylapphieu" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Docgia">
+    <Key>
+      <PropertyRef Name="Madg" />
+    </Key>
+    <Property Name="Madg" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Tendg" Type="nvarchar" MaxLength="50" />
+    <Property Name="Namsinh" Type="date" />
+    <Property Name="Gioitinh" Type="nvarchar" MaxLength="10" />
+    <Property Name="Diachi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Lop" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ngaytaothe" Type="date" />
+    <Property Name="Manv" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Nhanvien">
+    <Key>
+      <PropertyRef Name="Manv" />
+    </Key>
+    <Property Name="Manv" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Tennv" Type="nvarchar" MaxLength="50" />
+    <Property Name="Namsinh" Type="datetime" />
+    <Property Name="Gioitinh" Type="varchar" MaxLength="4" />
+    <Property Name="Diachi" Type="nvarchar" MaxLength="50" />
+    <Property Name="SDT" Type="varchar" MaxLength="20" />
+    <Property Name="Ngaylamviec" Type="datetime" />
+    <Property Name="Tk" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Phieumuon">
+    <Key>
+      <PropertyRef Name="Maphieu" />
+    </Key>
+    <Property Name="Maphieu" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Manv" Type="varchar" MaxLength="10" />
+    <Property Name="Ngaylapphieu" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Sach">
+    <Key>
+      <PropertyRef Name="Masach" />
+    </Key>
+    <Property Name="Masach" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Tensach" Type="nvarchar" MaxLength="50" />
+    <Property Name="Loaisach" Type="nvarchar" MaxLength="50" />
+    <Property Name="Linhvuc" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tacgia" Type="nvarchar" MaxLength="50" />
+    <Property Name="NXB" Type="nvarchar" MaxLength="50" />
+    <Property Name="Ngayxuatban" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Taikhoan">
+    <Key>
+      <PropertyRef Name="Tk" />
+    </Key>
+    <Property Name="Tk" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mk" Type="nvarchar" MaxLength="50" />
+    <Property Name="loai" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__CTPM__Madg__1273C1CD">
+    <End Role="Docgia" Type="Self.Docgia" Multiplicity="1" />
+    <End Role="CTPM" Type="Self.CTPM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Docgia">
+        <PropertyRef Name="Madg" />
+      </Principal>
+      <Dependent Role="CTPM">
+        <PropertyRef Name="Madg" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CTPM__Manv__1367E606">
+    <End Role="Nhanvien" Type="Self.Nhanvien" Multiplicity="1" />
+    <End Role="CTPM" Type="Self.CTPM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nhanvien">
+        <PropertyRef Name="Manv" />
+      </Principal>
+      <Dependent Role="CTPM">
+        <PropertyRef Name="Manv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CTPM__Maphieu__145C0A3F">
+    <End Role="Phieumuon" Type="Self.Phieumuon" Multiplicity="1" />
+    <End Role="CTPM" Type="Self.CTPM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Phieumuon">
+        <PropertyRef Name="Maphieu" />
+      </Principal>
+      <Dependent Role="CTPM">
+        <PropertyRef Name="Maphieu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CTPM__Masach__15502E78">
+    <End Role="Sach" Type="Self.Sach" Multiplicity="1" />
+    <End Role="CTPM" Type="Self.CTPM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sach">
+        <PropertyRef Name="Masach" />
+      </Principal>
+      <Dependent Role="CTPM">
+        <PropertyRef Name="Masach" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Docgia__Manv__164452B1">
+    <End Role="Nhanvien" Type="Self.Nhanvien" Multiplicity="0..1" />
+    <End Role="Docgia" Type="Self.Docgia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nhanvien">
+        <PropertyRef Name="Manv" />
+      </Principal>
+      <Dependent Role="Docgia">
+        <PropertyRef Name="Manv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Phieumuon__Manv__182C9B23">
+    <End Role="Nhanvien" Type="Self.Nhanvien" Multiplicity="0..1" />
+    <End Role="Phieumuon" Type="Self.Phieumuon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nhanvien">
+        <PropertyRef Name="Manv" />
+      </Principal>
+      <Dependent Role="Phieumuon">
+        <PropertyRef Name="Manv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Nhanvien_Taikhoan">
+    <End Role="Taikhoan" Type="Self.Taikhoan" Multiplicity="0..1" />
+    <End Role="Nhanvien" Type="Self.Nhanvien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Taikhoan">
+        <PropertyRef Name="Tk" />
+      </Principal>
+      <Dependent Role="Nhanvien">
+        <PropertyRef Name="Tk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLSachModelStoreContainer">
+    <EntitySet Name="CTPM" EntityType="Self.CTPM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Docgia" EntityType="Self.Docgia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Nhanvien" EntityType="Self.Nhanvien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Phieumuon" EntityType="Self.Phieumuon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sach" EntityType="Self.Sach" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Taikhoan" EntityType="Self.Taikhoan" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__CTPM__Madg__1273C1CD" Association="Self.FK__CTPM__Madg__1273C1CD">
+      <End Role="Docgia" EntitySet="Docgia" />
+      <End Role="CTPM" EntitySet="CTPM" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CTPM__Manv__1367E606" Association="Self.FK__CTPM__Manv__1367E606">
+      <End Role="Nhanvien" EntitySet="Nhanvien" />
+      <End Role="CTPM" EntitySet="CTPM" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CTPM__Maphieu__145C0A3F" Association="Self.FK__CTPM__Maphieu__145C0A3F">
+      <End Role="Phieumuon" EntitySet="Phieumuon" />
+      <End Role="CTPM" EntitySet="CTPM" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CTPM__Masach__15502E78" Association="Self.FK__CTPM__Masach__15502E78">
+      <End Role="Sach" EntitySet="Sach" />
+      <End Role="CTPM" EntitySet="CTPM" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Docgia__Manv__164452B1" Association="Self.FK__Docgia__Manv__164452B1">
+      <End Role="Nhanvien" EntitySet="Nhanvien" />
+      <End Role="Docgia" EntitySet="Docgia" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Phieumuon__Manv__182C9B23" Association="Self.FK__Phieumuon__Manv__182C9B23">
+      <End Role="Nhanvien" EntitySet="Nhanvien" />
+      <End Role="Phieumuon" EntitySet="Phieumuon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Nhanvien_Taikhoan" Association="Self.FK_Nhanvien_Taikhoan">
+      <End Role="Taikhoan" EntitySet="Taikhoan" />
+      <End Role="Nhanvien" EntitySet="Nhanvien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

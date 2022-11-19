@@ -1,0 +1,274 @@
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.FChiTietPhieuMuon.resources
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Form1.resources
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Login.resources
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLDocGia.resources
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLNhanVien.resources
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLPhieuMuon.resources
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QuanLy.resources
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\QLThuVien.exe.config
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\QLThuVien.exe
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\QLThuVien.pdb
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CopyComplete
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.exe
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.pdb
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\QLThuVien.exe.config
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\QLThuVien.exe
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\QLThuVien.pdb
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.FChiTietPhieuMuon.resources
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Form1.resources
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Login.resources
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Properties.Resources.resources
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLDocGia.resources
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLNhanVien.resources
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLPhieuMuon.resources
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QuanLy.resources
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CopyComplete
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.exe
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.pdb
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\stdole.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPDocGia.resources
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPNhanVien.resources
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPPhieuMuon.resources
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPSach.resources
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\stdole.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPDocGia.resources
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPNhanVien.resources
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPPhieuMuon.resources
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPSach.resources
+C:\Users\Lenovo\source\repos\QLThuVien\QLThuVien\obj\Debug\QLThuVien.MuonSach.resources
+C:\Users\Admin\Desktop\QLThuVien\QLThuVien\obj\Debug\QLThuVien.MuonSach.resources
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.AssemblyReference.cache
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.FChiTietPhieuMuon.resources
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Form1.resources
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Login.resources
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.MuonSach.resources
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Properties.Resources.resources
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLDocGia.resources
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLNhanVien.resources
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLPhieuMuon.resources
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QuanLy.resources
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPDocGia.resources
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPNhanVien.resources
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPPhieuMuon.resources
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPSach.resources
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.GenerateResource.cache
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CoreCompileInputs.cache
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.exe
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.pdb
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\QLThuVien.exe.config
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\QLThuVien.exe
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\QLThuVien.pdb
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\EntityFramework.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\stdole.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\EntityFramework.xml
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ACER-F5-573G\Downloads\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CopyComplete
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\QLThuVien.exe.config
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\QLThuVien.exe
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\QLThuVien.pdb
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\stdole.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.FChiTietPhieuMuon.resources
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Form1.resources
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Login.resources
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Properties.Resources.resources
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLDocGia.resources
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLNhanVien.resources
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLPhieuMuon.resources
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QuanLy.resources
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPDocGia.resources
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPNhanVien.resources
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPPhieuMuon.resources
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPSach.resources
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CopyComplete
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.exe
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\obj\Debug\QLThuVien.pdb
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\Microsoft.VisualStudio.LiveShare.dll
+C:\Users\Admin\Desktop\New folder\QLThuVien\QLThuVien\bin\Debug\Microsoft.VisualStudio.LiveShare.xml
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\QLThuVien.exe.config
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\QLThuVien.exe
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\QLThuVien.pdb
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\Microsoft.VisualStudio.LiveShare.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\stdole.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\bin\Debug\Microsoft.VisualStudio.LiveShare.xml
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.FChiTietPhieuMuon.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Form1.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Login.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLDocGia.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLNhanVien.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLPhieuMuon.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QuanLy.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPDocGia.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPNhanVien.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPPhieuMuon.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPSach.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.exe
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\QLThuVien\QLThuVien\obj\Debug\QLThuVien.pdb
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\QLThuVien.exe.config
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\QLThuVien.exe
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\QLThuVien.pdb
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\Microsoft.VisualStudio.LiveShare.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\stdole.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\bin\Debug\Microsoft.VisualStudio.LiveShare.xml
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.FChiTietPhieuMuon.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Form1.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Login.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLDocGia.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLNhanVien.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QLPhieuMuon.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.QuanLy.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPDocGia.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPNhanVien.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPPhieuMuon.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.RPSach.resources
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.exe
+C:\Users\Lenovo\Desktop\Lập Trình CSDL\Hoàn Thành\Dự Trữ\QLThuVien\QLThuVien\obj\Debug\QLThuVien.pdb
